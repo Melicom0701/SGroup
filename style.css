@@ -1,0 +1,202 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 50px 50px 50px;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+    background-color: #FFF;
+    font-weight: 400;
+    font-style: normal;
+    color: #373737;
+    font-size: 14px;
+}
+.header {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    background-color: white;
+    margin: 0 20px 15px 0;
+    padding-bottom: 15px;
+    align-items: flex-end;
+    text-align: center;
+    font-size: 70px; 
+    font-weight: bold;
+    border-bottom: outset;
+
+
+}
+.introduce {
+    display: flex;
+}
+.logo {
+    margin-right: 10%;
+}
+.linhsan {
+    width: 40%;
+}
+.info {
+    width: 60%;
+    margin: 50px;
+}
+.box1 {
+    float: left;
+    margin-right: 50px;
+    color: pink;
+}
+.box2 {
+    float: left;
+    margin-right: 50px;
+    border: 50px;
+    color: pink;
+}
+.box3 {
+    margin-right: 50px;
+    border: 50px;
+    color: pink;
+}
+.boxText {
+    font-size: 20px;
+}
+.underlinedText {
+    text-decoration: underline;
+    -webkit-text-decoration-color: pink; /* Safari */
+    text-decoration-color: pink;
+    font-size: 30px;
+    padding-top: 50px;
+    margin: 5px;
+}
+.aboutmeText {
+    font-size: 30px;
+    font-family: "Courier New", Courier, monospace;
+}
+.button {
+    border: none;
+    color: pink;
+    padding: 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    cursor: pointer;
+}
+.button4 {
+    border-radius: 140px;
+}
+.dr {
+    text-align: center;
+}
+.skills{
+    width: 50%;    
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.sTag{
+  border: outset;
+  padding: 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  height: 30px;
+  cursor: pointer;
+  border-radius: 100px;
+
+}
+.particularInfo
+{
+  display: flex;
+  width: 100%;
+
+}
+.wPanel{
+  width: 100%;
+  background-color:#f6f8fa;
+  height: fit-content;
+  margin:50px 50px 50px 0;
+  padding: 50px;
+  display: flex;
+}
+.wPanel__title{
+  color: #000;
+  font-size: 30px;
+  line-height: 36px;
+  
+  font-weight: 600;
+  margin-bottom: 30px;
+
+}
+.wPanel__text{
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+}
+.wPanel__button{
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 13px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  color: #F26464;
+  padding: 17px 30px;
+  border: 2px solid #F26464;
+  border-radius: 60px;
+}
+.wContent{
+  width: 50%;
+
+}
+.wImg{
+  height: fit-content;
+  width: fit-content;
+}
+.ds-button{
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 13px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  color: #F26464;
+  padding: 17px 30px;
+  border: 2px solid #F26464;
+  border-radius: 60px;
+  margin:50px;
+}
+.footer{
+  background-color: #000;
+  height: 400px;
+  width: 100%;
+  margin: -50px;
+  padding: 50px;
+  text-align: center;
+
+}
+
+
+.slogan{
+  color: rgba(255,255,255,0.5);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: block;
+  padding-bottom: 20px;
+}
+
+.ss{
+  color: #FFF;
+  font-size: 48px;
+  font-weight: 700;
+}
+.ct{
+  letter-spacing: 1.13px;
+  color: #FFF;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
