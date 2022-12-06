@@ -1,0 +1,63 @@
+body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size :large;
+}
+.cardContainer{
+    display: flex;
+    flex-direction: row;
+    margin : 100px;
+}
+img {
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+.card{
+    display : flex;
+    flex-direction: column;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    height: 700px;
+    margin : 10px;
+    width: 100%;
+   border: 1px;
+   border-radius: 40px;
+
+}
+.card__imgElement{
+    display: flex;
+    
+}
+.card__title{
+    display:flex;
+    justify-content: space-between;
+    margin: 20px;
+
+
+}
+.card__address{
+    display: flex;
+    margin:20px;
+
+}
+.card__convenience
+{
+    display: flex;
+    margin:20px;
+
+}
+.card__owner{
+    display: flex;
+    border-top-style: groove;
+    margin: 30px;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+.card__owner>div>img{
+    border-radius :50%;
+    width:100px;
+    padding: 5px;
+
+}
